@@ -41,3 +41,4 @@ include $(LOCAL_PATH)/vendor_prop.mk
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/chiron/chiron-vendor.mk)
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
