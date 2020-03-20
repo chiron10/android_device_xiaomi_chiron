@@ -21,6 +21,7 @@ DEVICE_PATH := device/xiaomi/chiron
 
 # Kernel
 TARGET_KERNEL_CONFIG := chiron_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := chiron
