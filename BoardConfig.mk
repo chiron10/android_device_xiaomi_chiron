@@ -28,6 +28,9 @@ TARGET_OTA_ASSERT_DEVICE := chiron
 # Audio
 AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 
+# Also we need to disable runtime isolation, otherway proximity will not work
+BOARD_VNDK_RUNTIME_DISABLE := true
+
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_STATUSBAR := 50
 
